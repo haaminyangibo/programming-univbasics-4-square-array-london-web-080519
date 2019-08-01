@@ -1,10 +1,4 @@
-
-
-def square_array(array)
-  new_array = []
-  array.each{|a| new_array.push(a*a)}
-  return new_array
+arr = [1,2,3,4,5]
+arr.each do |i|
+   puts i*i
 end
-
-arr = [1, 2, 3]
-square_array(arr)
