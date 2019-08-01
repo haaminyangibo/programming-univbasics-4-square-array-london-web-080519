@@ -1,11 +1,8 @@
 def square_array(array)
-
-numbers =[1, 2, 3]
-
- counter = 0
-
-  while nnumbers[counter] do
-    puts numbers**numbers[counter]
-    counter += 1
-  end
+  new_array = []
+  array.each{|a| new_array.push(a*a)}
+  return new_array
 end
+
+arr = [1, 2, 3,]
+square_array(arr)
