@@ -7,7 +7,7 @@ square_array(numbers) = new_numbers
  counter = 0
 
   while new_numbers[counter] do
-    puts new_numbers[counter]
+    puts new_numbers*new_numbers[counter]
     counter += 1
   end
 end
