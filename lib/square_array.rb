@@ -5,9 +5,9 @@ numbers =[1, 2, 3]
 square_array(numbers**) = new_numbers
 
  counter = 0
- 
-  while numbers[counter] do
-    puts numbers[counter]
+
+  while new_numbers[counter] do
+    puts new_numbers[counter]
     counter += 1
   end
 end
